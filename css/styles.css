@@ -1,0 +1,193 @@
+body {
+  font-family: "Encode Sans", sans-serif;
+  color: #303134;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row {
+  flex-direction: row;
+}
+.col {
+  flex-direction: column;
+}
+
+.color-g1 {
+  color: #c3170c;
+}
+.color-globo {
+  color: #1e4b9b;
+}
+.color-valor {
+  color: #006766;
+}
+.color-ge {
+  color: #07aa47;
+}
+.color-cartola {
+  color: #e3662b;
+}
+.color-globoplay {
+  color: #fb0735;
+}
+.color-dropz {
+  color: #ff75bb;
+}
+.color-gshow {
+  color: #ec7d00;
+}
+.color-quem {
+  color: #323333;
+}
+.color-receitas {
+  color: #a81d83;
+}
+
+/* HEADER */
+
+#view {
+  min-height: 10px;
+  margin: 0 auto;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+#header > img {
+  height: 36px;
+}
+
+/* MENU */
+
+#menu-wrapper {
+  border-top: solid 1px #f5f6f7;
+  border-bottom: solid 1px #f5f6f7;
+}
+
+#menu {
+  width: 1250px;
+  height: 45px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.menu-item {
+  font-weight: 700;
+}
+
+/* NEWS */
+
+.news {
+  min-height: 100px;
+}
+
+.news > img {
+  margin-bottom: 11px;
+}
+.news > h2 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17.5px;
+  word-break: break-word;
+  margin-bottom: 6px;
+}
+.news > h1 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  word-break: break-word;
+  margin-bottom: 4.5px;
+}
+.news > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  word-break: break-word;
+  margin-top: 5px;
+}
+
+.n-menor {
+  width: 193px;
+}
+
+.n-maior {
+  margin-bottom: 50px;
+}
+
+.n-img-menor {
+  border-radius: 12px;
+  width: 193px;
+  height: 110px;
+}
+.n-img-maior {
+  border-radius: 12px;
+  width: 240px;
+  height: 128px;
+}
+
+/* MAIN */
+
+#main {
+  justify-content: space-between;
+  width: 1250px;
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.section-left {
+  width: 627px;
+}
+
+.section-right {
+  width: 240px;
+}
+
+.barra-vertical {
+  width: 0px;
+  border-left: solid 1px #ebedef;
+}
+
+.headline {
+  margin-bottom: 25px;
+}
+
+.headline > h1 {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 67px;
+
+  margin-bottom: 30px;
+}
+.headline > h2 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22.5px;
+
+  margin-bottom: 7px;
+}
+
+.news-group-hor {
+  padding-top: 25px;
+  margin-bottom: 25px;
+  border-top: 1px solid #ebedef;
+  justify-content: space-between;
+}
+
+.last {
+  margin-bottom: 0 !important;
+}
